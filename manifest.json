@@ -1,0 +1,11 @@
+{
+	"name": "Stay focused on what matters...",
+	"version": "1.0",
+	"description": "focus extension",
+	"permissions": ["alarms", "activeTab", "tabs", "declarativeContent", "storage"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"manifest_version": 2
+}
